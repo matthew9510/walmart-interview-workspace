@@ -34,7 +34,7 @@ const Navbar = () => {
         {/* Left */}
         <div className="flex items-center gap-x-3 shrink-0 grow sm:grow-0">
           <div className="visible xl:hidden hover:bg-[#06529a] p-2">
-            <RxHamburgerMenu className="text-[22px]" />
+            <RxHamburgerMenu className="text-[26px]" />
           </div>
           <div className="hidden sm:flex xl:hidden p-2">
             <img
