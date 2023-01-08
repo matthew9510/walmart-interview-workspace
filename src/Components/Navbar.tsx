@@ -44,7 +44,11 @@ const Navbar = () => {
             />
           </div>
           <div className=" w-[100%] flex justify-center sm:max-xl:hidden hover:bg-[#06529a] p-2 rounded-full">
-            <img src={WalmartLogo} alt="Larger Walmart Icon" className="h-12 align-center" />
+            <img
+              src={WalmartLogo}
+              alt="Larger Walmart Icon"
+              className="h-12 align-center"
+            />
           </div>
           <div className="hidden xl:flex items-center gap-2 hidden hover:bg-[#06529a] p-3 rounded-full">
             <HiOutlineViewGrid className="text-[20px]" />
