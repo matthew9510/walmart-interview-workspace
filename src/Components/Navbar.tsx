@@ -29,7 +29,7 @@ const Navbar = () => {
     : "Thank you for your time and consideration!";
 
   return (
-    <>
+    <React.Fragment>
       <div className="bg-[#0071dc] px-3 py-2 lg:px-8 text-white flex justify-between items-center">
         {/* Left */}
         <div className="flex items-center gap-x-3 shrink-0 grow sm:grow-0">
@@ -117,7 +117,7 @@ const Navbar = () => {
           <p className="hidden lg:flex font-bold hover:underline">Walmart+</p>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 };
 
