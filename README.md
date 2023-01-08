@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Walmart Front End Developer Interview Workspace
+I was asked to prepare an coding environment for a Walmart Front End Developer Interview, this is that workspace I prepared. I thought it would be good practice to create a ui looking like Walmart.com and get some experience with Tailwindcss as I see their website uses that or a similar library.
+
+I used an existing project I found on github written by the user andreibarbu5 to get a starter template, and then I edited his work further to have a cleaner mobile experience based on my customizations. [Link to Walmart replica project](https://github.com/andreibarbu5/walmart)
+
+<hr>
+<br>
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
