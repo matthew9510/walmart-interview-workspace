@@ -29,22 +29,22 @@ const Navbar = () => {
     : "Thank you for your time and consideration!";
 
   return (
-    <div className="">
+    <>
       <div className="bg-[#0071dc] px-3 py-2 lg:px-8 text-white flex justify-between items-center">
         {/* Left */}
-        <div className="hidden sm:flex items-center gap-x-3 shrink-0">
-          <div className="visible md:hidden hover:bg-[#06529a] p-2">
+        <div className="flex items-center gap-x-3 shrink-0 grow sm:grow-0">
+          <div className="visible xl:hidden hover:bg-[#06529a] p-2">
             <RxHamburgerMenu className="text-[22px]" />
           </div>
-          <div className="visible md:hidden hover:bg-[#06529a] p-2">
+          <div className="hidden sm:flex xl:hidden hover:bg-[#06529a] p-2">
             <img
               src={MiniWalmartLogo}
               alt="Mini Walmart Icon"
               className="h-8"
             />
           </div>
-          <div className="hidden md:flex hover:bg-[#06529a] p-2 rounded-full">
-            <img src={WalmartLogo} alt="Larger Walmart Icon" className="h-12" />
+          <div className=" w-[100%] flex justify-center sm:max-xl:hidden hover:bg-[#06529a] p-2 rounded-full">
+            <img src={WalmartLogo} alt="Larger Walmart Icon" className="h-12 align-center" />
           </div>
           <div className="hidden xl:flex items-center gap-2 hidden hover:bg-[#06529a] p-3 rounded-full">
             <HiOutlineViewGrid className="text-[20px]" />
@@ -56,7 +56,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* Middle */}
-        <div className="relative flex items-center flex-1 mx-6 ">
+        <div className="hidden sm:flex relative items-center flex-1 mx-6 ">
           <input
             type="search"
             className="rounded-full py-1.5 outline-0 flex-1 text-black pl-10"
@@ -82,7 +82,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* Global Intent Center */}
-      <div className="bg-[#0071dc] mt-[1px] text-white px-3 py-3 lg:px-8 flex justify-between">
+      <div className="hidden sm:flex bg-[#0071dc] mt-[1px] text-white px-3 py-3 lg:px-8 justify-between">
         <div className=" flex items-center gap-6">
           <div className="flex items-center gap-1 hover:underline">
             <BsPhone />
@@ -113,7 +113,7 @@ const Navbar = () => {
           <p className="hidden lg:flex font-bold hover:underline">Walmart+</p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
