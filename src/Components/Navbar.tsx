@@ -36,14 +36,14 @@ const Navbar = () => {
           <div className="visible xl:hidden hover:bg-[#06529a] p-2">
             <RxHamburgerMenu className="text-[22px]" />
           </div>
-          <div className="hidden sm:flex xl:hidden hover:bg-[#06529a] p-2">
+          <div className="hidden sm:flex xl:hidden p-2">
             <img
               src={MiniWalmartLogo}
               alt="Mini Walmart Icon"
               className="h-8"
             />
           </div>
-          <div className=" w-[100%] flex justify-center sm:max-xl:hidden hover:bg-[#06529a] p-2 rounded-full">
+          <div className=" w-[100%] flex justify-center sm:max-xl:hidden xl:hover:bg-[#06529a] p-2 rounded-full">
             <img
               src={WalmartLogo}
               alt="Larger Walmart Icon"
