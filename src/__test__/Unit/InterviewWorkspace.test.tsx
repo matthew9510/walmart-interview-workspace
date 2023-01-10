@@ -8,7 +8,7 @@ describe('<InterviewWorkspace />', () => {
     documentBody = render(<InterviewWorkspace />);
   });
   
-  it("shows Matthew's workspace", () => {
+  it("Shows Matthew's workspace", () => {
     expect(documentBody.getByText("Matthew's Workspace!")).toBeInTheDocument();
   });
 });
