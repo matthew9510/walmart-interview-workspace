@@ -1,5 +1,4 @@
 import React from "react";
-// import {Wrapper} from '../Components/styles'
 
 interface IProps {
   interviewerName?: string;
