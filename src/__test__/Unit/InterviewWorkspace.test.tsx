@@ -5,10 +5,29 @@ let documentBody: RenderResult;
 
 describe('<InterviewWorkspace />', () => {
   beforeEach(() => {
-    documentBody = render(<InterviewWorkspace />);
+    documentBody = render(<InterviewWorkspace interviewData={[
+      {
+        "Name": "A",
+        "Type": "String",
+        "Required": "Y"
+      },
+      {
+        "Name": "B",
+        "Type": "Integer",
+        "Required": "N"
+      },
+      {
+        "Name": "C",
+        "Type": "Booleen",
+        "Required": "Y"
+      }
+    ]} />);
   });
   
-  it("Shows Matthew's workspace", () => {
-    expect(documentBody.getByText("Matthew's Workspace!")).toBeInTheDocument();
+  it("Shows Table content", () => {
+    expect(documentBody.getByText("Name")).toBeInTheDocument();
+    expect(documentBody.getByText("Type")).toBeInTheDocument();
+    expect(documentBody.getByText("Required")).toBeInTheDocument();
+
   });
 });

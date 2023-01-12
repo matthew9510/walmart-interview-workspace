@@ -9,7 +9,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsPhone } from "react-icons/bs";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const [width, setWidth] = useState<number>(window.innerWidth);
 
   function handleWindowSizeChange() {
